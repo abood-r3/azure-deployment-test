@@ -10,7 +10,7 @@ env:
   AZURE_WEBAPP_NAME: web-app-1
   WORKING_DIRECTORY: djbe
   PYTHON_VERSION: '3.12'
-  STARTUP_COMMAND: 'gunicorn your_project.wsgi:application'  # change this
+  STARTUP_COMMAND: 'py manage.py runserver'  # gunicorn coreProject.wsgi:application
 
 jobs:
   build:
