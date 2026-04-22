@@ -30,7 +30,6 @@ jobs:
   permissions:
     contents: read #This is required for actions/checkout
     id-token: write #This is required for requesting the JWT
-  environment: prod
   steps:
   # checkout the repo 
   - uses: actions/checkout@v4
