@@ -1,0 +1,35 @@
+# logging
+python-json-logger==4.0.0
+# env variables
+python-dotenv===1.1.1
+# Production server
+gunicorn==22.0.0
+# DB - postgres driver (main django database)
+psycopg2==2.9.10
+# psycopg2-binary==2.9.10 # as to what i read this is mainly used for dev. for prod use psycopg2
+# DB NEW - mongoDB driver (ms1 DB)
+mongoengine==0.29.1
+pymongo==4.15.1
+# Django
+Django==6.0
+django-ninja==1.5.1
+django-ninja-extra==0.30.8
+django-ninja-jwt==5.4.2
+django-cors-headers==4.9.0
+# AWS S3
+boto3==1.35.0
+# # ms1
+# pydantic==2.10.6
+# tqdm==4.67.1
+# pathlib==1.0.1
+# PyPDF2==3.0.1
+# pdf2image==1.17.0
+# google-cloud-vision==3.10.1
+# misc
+jupyter==1.1.1
+ipywidgets==8.1.7
+ipykernel==6.29.5
+pandas==2.3.3
+numpy==2.4.0
+requests==2.32.3
+plotly==6.3.1
